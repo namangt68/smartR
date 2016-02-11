@@ -1,11 +1,12 @@
 Package: smart-r
-Type: OpenCPU Application
-Title: Smart-R
-Version: 0.1
+Version: 1.0
 Date: 2016-01-18
+Title: Smart-R
 Author: Naman Gupta 
 Maintainer: Naman <namangt68@gmail.com>
-Description: Statistical Analysis Tool
-License: Apache2
-LazyData: true
+Depends: R (>= 3.1.0)
 Suggests: opencpu (>= 1.0.1)
+Description: Statistical Analysis Tool
+License: GPL (>= 2)
+URL: https://www.r-project.org
+LazyData: true
