@@ -1,4 +1,3 @@
-importFrom(one_t_test)
 export(uploaddata)
 export(datainfo)
 
