@@ -1,1 +1,0 @@
-one_ttest <- t.test(x)
