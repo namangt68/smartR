@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chaining function calls</title>
+    
+    <!-- Include order: first jquery, then opencpu.js, and then your code -->
+    <script src="opencpu/jquery-1.10.2.min.js"></script>
+    <script src="opencpu/opencpu-0.4.js"></script>
+    <script src="test.js"></script>
+    
+    <style>
+    p {
+      max-width: 600px;
+    }
+    #output{
+      min-height: 200px;
+      border: solid gray 1px;
+    }
+
+    </style>
+    
+  </head>
+    
+  <body>
+    <h1>SmartR -An open statistical analysis tool</h1>
+    
+    <b>CSV File</b> <input type="file" id="csvfile">
+    <br />
+    
+    <b>Header</b> <select id="header">
+      <option>true</option>
+      <option>false</option>
+    </select> 
+    
+    <br />
+    <button id="submitbutton" type="button">Upload CSV file!</button>
+
+   
+    <pre id="output"><code></code></pre>
+  </body>
+</html>
