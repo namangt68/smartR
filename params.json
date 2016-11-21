@@ -1,0 +1,6 @@
+{
+  "name": "Smart-r",
+  "tagline": "A statistical analysis tool",
+  "body": "# Smart-R\r\n\r\nA statistical analysis tool for t-test, multi-variate analysis etc.\r\n\r\n## Install hack\r\nFollow these instructions to install smartR for single user.\r\n```\r\ninstall.packages(\"opencpu\")\r\nlibrary(devtools)\r\ninstall_github(\"smart_r\",\"namangt68\")\r\nlibrary(opencpu)\r\ninstall_github(\"smart_r\",\"namangt68\")\r\nopencpu$browse(\"library/smartR/www\")\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
