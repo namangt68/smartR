@@ -31,6 +31,7 @@ use web based platform.
 2. Understanding different statistical tests and possible technologies that can be used.
 3. Design a project outlay map for execution, compare and decide among different available technologies that can be used to build that product.
 4. Setting the work architecture of the project and then its implementation.
+
 ## Technology stack
 
 * OpenCPU API( for seamless integration of R and JavaScript)
